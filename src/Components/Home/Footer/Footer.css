@@ -1,0 +1,24 @@
+.footer-root{
+    height: 60vh;
+    width: 100%;
+}
+.footer-left i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.footer-right ul li{
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+.twitter{
+    color: #26A7DE;
+}
+.dribble{
+    color: #E94B88;
+}
+.linkedin{
+    color: #0077B5;
+}
+.copyright{
+    margin-bottom: 2rem;
+}

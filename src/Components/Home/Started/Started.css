@@ -1,0 +1,15 @@
+.avater{
+    height: 280px;
+    width: 280px;
+    background-color: #EBECF9;
+    border-radius: 250px;
+}
+.c-input{
+    background-color: #EBECF9;
+}
+.get-started{
+    background-color: #FE775A;
+    color: white;
+    border: 0px solid white;
+    box-shadow: 0px 5px 20px #FE775A;
+}

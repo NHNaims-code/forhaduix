@@ -1,0 +1,63 @@
+.text-c-darkblue{
+    color: #4A56CA;
+}
+.text-c-lightblue{
+    color: #7885F9;
+}
+.text-c-green{
+    color: #60D759;
+}
+.text-c-primary{
+    color: #FE775A;
+}
+.bg-c-gray{
+    background-color: #DEECF9;
+}
+.companies-root{
+    height: 100vh;
+}
+.companies-root h2{
+    font-size: 2.5rem;
+}
+.line-height{
+    line-height: 150%;
+
+}
+.companies-card{
+    position: relative;
+    height: 60vh;
+    border-radius: 15px;
+}
+.work-date-section{
+    position: relative;
+}
+.work-date-section p{
+    position: relative;
+    font-size: 5rem;
+    margin: 0; 
+    padding: 0;
+    color: #8491A0;
+}
+.work-date-section small{
+    position: absolute;
+    bottom: 22px;
+    left: 0px;
+    padding: 5px;
+    background-color: #DEECF9;
+}
+.medium-bold{
+    font-weight: 700;
+}
+.companies-card h5{
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+}
+.view-my-roll{
+    border: 2px solid #7885F9;
+    border-radius: 5px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 32px;
+    left: 27%;
+}

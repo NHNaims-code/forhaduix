@@ -1,0 +1,12 @@
+.btn-c-primary{
+    background-color: #FE7751;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 6px 20px;
+    border: 0px solid white;
+}
+
+.navbar-root{
+    position: sticky;
+}
