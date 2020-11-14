@@ -3,10 +3,28 @@
     color: white;
     font-weight: 700;
     border-radius: 5px;
-    padding: 6px 20px;
+    padding: 6px 12px;
     border: 0px solid white;
 }
-
+.my-nav{
+    background-color: #4A56C4;
+    width: 100%;
+}
 .navbar-root{
-    position: sticky;
+    background-color: #4A56C4;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+.navbar-root img{
+    height: 28px;
+    width: 155.56px;
+}
+.navbar-root a{
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 48px;
+}
+.navbar-root button{
+    margin-left: 48px;
 }

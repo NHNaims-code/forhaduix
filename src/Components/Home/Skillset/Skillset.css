@@ -1,0 +1,30 @@
+.skillset{
+    margin-top: 112px;
+}
+.skillset h1{
+    font-size: 55px;
+    line-height: 66.17px;
+    font-weight: 700;
+}
+.skillset p{
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 24px;
+}
+.skillset button{
+    margin-top: 45px;
+    font-size: 18px;
+}
+.single-skill img{
+    height: 28.8px;
+}
+.single-skill h4{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.single-skill p{
+    font-size: 16px;
+    list-style: 24px;
+    margin-top: 12px;
+}

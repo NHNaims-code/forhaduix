@@ -1,15 +1,38 @@
 .footer-root{
-    height: 60vh;
+    height: 422px;
+    background-color: #EBECF9;
     width: 100%;
+    margin-top: 113px;
+    padding-top: 82px;
 }
-.footer-left i{
-    font-size: 1.5rem;
-    margin-right: 1rem;
+.footer-root img{
+    height: 28px;
+    width: 155.56px;
 }
-.footer-right ul li{
+.footer-root p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #8491A0;
+    margin: 0;
+    margin-top: 29px;
+}
+.footer-root i{
+    margin-top: 62px;
+    margin-right: 21px;
+    font-size: 20px;
+}
+.footer-root ul li{
+    display: flex;
+    align-items: center;
     list-style: none;
-    margin-bottom: 1.5rem;
+    height: 48px;
+    width: 196px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5B6876;
+    line-height: 150px;
 }
+
 .twitter{
     color: #26A7DE;
 }
@@ -20,5 +43,9 @@
     color: #0077B5;
 }
 .copyright{
-    margin-bottom: 2rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 46px;
+    color: #8491A0;
 }

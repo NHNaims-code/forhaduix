@@ -1,55 +1,95 @@
 .text-c-gray{
     color: #5B6876;
 }
-.hero-deep{
-    height: 110vh;
-}
 .hero-root{
     position: relative;
-    background-image: url('../../../Asset/me.png');
-    background-repeat: no-repeat;
-    background-position-x: left;
-    background-position-y: bottom;
-    background-size: 50%;
-    height: 100%;
-    
+    height: 903px; 
 }
-.hero-line-height{
-    line-height: 150%;
+.hero-description{
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin: 0;
+    margin-top: 44.5px;
 }
+
 .hero-root::before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 40%;
-    top: 0;
-    left: 0;
-    background-color: black;
-    z-index: -3;
-}
-.hero-root::after{
     content: '';
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    background-image:linear-gradient( #7885F9, #4A56C4);
+    background-color: #4A56C4;
     z-index: -4;
 }
-.hero-root h1{
-    font-family: 'Share', cursive;
-    font-size: 78px;
-    margin-bottom: 48px;
-    line-height: 30px;
+.hero-root::after{
+    content: '';
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(0deg,#4A56C4,#4A56C4, rgba(74, 86, 196, 0.5), rgba(74, 86, 196, 0));
+    z-index: 4;
 }
-/* .hero-img{
-    background-color: red;
-    background-image: url('../../../Asset/me.png');
-    background-position: center;
-    background-size: cover;
 
-} */
+.hero-root h1{
+    font-size: 72px;
+    line-height: 86.4px;
+    font-weight: 800;
+    margin: 0;
+}
+.hero-root .t1{
+    font-size: 72px;
+    line-height: 86.4px;
+    font-weight: 400;
+}
+.hero-root .t2{
+    font-size: 72px;
+    line-height: 86.4px;
+    font-weight: 700;
+}
+.hero-btn-set{
+    margin: 0;
+    margin-top: 114.25px;
+}
+.hero-btn-1{
+    color: white;
+    background-color: #FE775A;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 12px;
+    border: 0px solid white;
+    padding: 16px 32px;
+}
+.hero-btn-2{
+    color: white;
+    background-color: #60D759;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 12px;
+    border: 0px solid white;
+    padding: 16px 32px;
+}
+.hero-image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.img-root{
+    position: absolute;
+    bottom: 0;
+    bottom: 50px;
+    right: -55px;
+}
 .hero-me{
-    width: 150% !important;
+    /* position: absolute; */
+    
+    top: 0;
+    bottom: 0;
 }

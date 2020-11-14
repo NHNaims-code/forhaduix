@@ -1,27 +1,56 @@
+.case-root{
+    margin-top: 112px;
+}
+.case-root h1{
+    font-size: 55px;
+    line-height: 66.17px;
+    font-weight: 700;
+    color: #7885F9;
+}
+.case-description{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 24px;
+}
 .case-card{
+    height: 398px;
+    width: 362px;
     border-radius: 10px;
     overflow: hidden;
+    margin-top: 38px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
 }
 .case-img{
     background-image: url('../../../Asset/portfolio7.png');
-    height: 220px;
+    height: 172px;
     background-size: contain;
 }
-
 .case-card h5{
-    font-size: 1.5rem;
+    font-size: 24px;
+    line-height: 36px;
     font-weight: 700;
-    text-align: center;
-    margin: 2rem 0;
+    margin-top: 33px;
 }
 .case-card p{
-    margin: 1.5rem 0;
-    line-height: 150%;
-    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-bottom: 0;
 }
-.case-card h6{
+.case-card button{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #7885F9;
     text-align: center;
-    margin-top: 3rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
+    margin-top: 29px;
+    background-color: white;
+    border: 0px solid white;
 }

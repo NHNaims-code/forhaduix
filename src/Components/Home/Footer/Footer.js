@@ -4,14 +4,14 @@ import logo from '../../../Asset/logo2.png';
 
 const Footer = () => {
     return (
-        <div className="footer-root bg-c-gray">
-            <div className="container mt-5 py-5">
-                <div className="row mt-5">
+        <div data-aos="slide-up" className="footer-root">
+            <div className="container ">
+                <div className="row ">
                     <div className="col-md-6 footer-left">
                         <div>
                         <img src={logo} alt=""/>
-                        <p className="w-50 my-4">I currently am the lead designer on the user interface design team for visualizer.</p>
-                        <div className="mt-5"><i class="fa fa-twitter twitter" aria-hidden="true"></i>
+                        <p className="w-50">I currently am the lead designer on the user interface design team for visualizer.</p>
+                        <div><i class="fa fa-twitter twitter" aria-hidden="true"></i>
                         <i class="fa fa-dribbble dribble" aria-hidden="true"></i>
                         <i class="fa fa-linkedin linkedin" aria-hidden="true"></i></div>
                         </div>

@@ -1,19 +1,56 @@
+.new-root{
+    margin-top: 21px;
+}
 .new{
-    background-color: #FE775A;
-    border-radius: 5px;
-    border: 0px solid white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
     color: white;
+    margin-right: 29px;
+    border-radius: 2px;
+    background-color: #FE775A;
 }
-.btn-c-primary-outline{
+.new-right{
+    font-size: 16px;
+    line-height: 24px;
+    color: lightgray;
+}
+.portfolio-text{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: lightgray;
+}
+.portfolio-root h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66.17px;
+    color: #4A56C4;
+}
+.option-bar{
+    margin-top: 45px;
+}
+.option-bar button{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-right: 25.5px;
     background-color: white;
-    margin-right: 40px;
-    border-radius: 5px;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 2px;
 }
-.btn-c-primary-outline:hover{
-    background-color: #FE775A;
-    border-radius: 5px;
+.option-bar button:hover{
+    background: #FE775A;
+    border: 1px solid white;
     color: white;
-    border: 2px solid white;
-    transition: all ease-in-out 0.1s;
+}
+.portfolio-images{
+    margin-top: 80px;
+}
+.portfolio-image{
+    width: 364px;
+    margin-bottom: 36px;
+}
+.portfolio-image-row{
+    margin: 0 24px;
 }

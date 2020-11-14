@@ -1,8 +1,64 @@
+.started-root{
+    margin-top: 76px;
+}
+.started-root h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 66.17px;
+}
+.started-root p{
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-top: 24px;
+}
 .avater{
-    height: 280px;
-    width: 280px;
+    height: 271px;
+    width: 271px;
+    margin-top: 61px;
     background-color: #EBECF9;
     border-radius: 250px;
+    cursor: pointer;
+}
+.label-name-first{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: lightgray;
+}
+.label-name{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: lightgray;
+    margin-top: 40px;
+}
+.started-root input{
+    height: 50px;
+    background: #EBECF9;
+    outline: 0px solid white;
+    border-radius: 4px;
+}
+.started-root textarea{
+    height: 100px;
+    background: #EBECF9;
+    outline: 0px solid white;
+    border-radius: 4px;
+}
+/* .started-root input:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  } */
+.started-root button{
+    font-size: 18px;
+    line-height: 27px;
+    height: 75px;
+    font-weight: 700;
+    color: white;
+    background-color: #FE775A;
+    border-radius: 4px;
+    margin-top: 40px;
 }
 .c-input{
     background-color: #EBECF9;
